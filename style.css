@@ -166,3 +166,11 @@
     font-size: 32px;
     margin-right: 10px;
    }
+
+   .botao{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row-reverse;
+    color: #0bdf9f;
+}
