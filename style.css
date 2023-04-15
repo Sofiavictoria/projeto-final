@@ -7,7 +7,7 @@
   
   
   body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif ; /*'Roboto', sans-serif*/
     margin: 0;
   }
   
@@ -25,7 +25,7 @@
     padding-bottom: 32px; /*Espaçamento inferior*/
     padding-top: 32px;/*Espaçamento superior*/
     height: 60px; /*Altura*/
-    background-color: lime; 
+    background-color: rgb(0, 61, 0); 
   }
   
   .header-menu nav {
@@ -42,7 +42,7 @@
   }
   
   .lista-menu li>a {
-    color: #FFF;
+    color: rgb(95, 243, 9); /*#FFF*/
     font-size: 18px;
     text-decoration: inherit;
   }
@@ -50,7 +50,7 @@
   .principal{
     height: 100vh;
     display: flex;
-    background-color: #EAEAEA;
+    background-color: #EAEAEA;/*rgb(109, 180, 109);*/
   }
   
   .container {
@@ -73,13 +73,13 @@
   
   .nome-completo {
     font-size: 36px;
-    color: green;
+    color: rgb(3, 83, 3) /*rgb(16, 150, 16) */;
     font-weight: 700; 
     height: 45px;
   }
   
   .profissao{
-    color: #32CD32;
+    color: rgb(226, 71, 15);
     height: 60px;
   }
   
@@ -93,11 +93,12 @@
     height: 250px ;
   }
   
-  /*.meio{ parte da formação
-    height: 95vh;
+  .meio{ /*parte da formação */
+    height: 100vh;
     display: flex;
-    background-color: #9e9a9a96;
-  }*/
+    flex-direction: column;
+    background-color: #6b7a6a73;/*#F4F3F0; rgb(209, 187, 159)*/
+  }
   .article-lista{
     display: flex;
     flex-direction: column;
@@ -108,7 +109,7 @@
   
   .topico-principal{
     font-size:36px;
-    color: #26ec26;
+    color: #023d0c  ; /* rgb(15, 112, 15); #023d0c*/
   }
   
   .lista-item ul li{
@@ -118,7 +119,7 @@
   .lista-titulo{
     margin-bottom: 5px;
     font-size: 22px;
-    color: #02941b; /*#00ff2a*/
+    color: rgb(15, 112, 15); /*#00ff2a*/
     font-weight: 700;
   }
   
@@ -131,7 +132,7 @@
     font-size: 18px;
     margin-top: 5px;
     line-height: 20px;
-    color: #413e3e; /*#828282  #1a1919 */
+    color: black; /*#828282  #1a1919 */
     font-weight: 300;
   }
   
@@ -142,7 +143,7 @@
   }*/
   
   .rodape{
-    background-color: lime;
+    background-color: rgb(0, 61, 0); /*darkgreen;*/
     height: 30vh;
     display: flex;
     align-items: center;
@@ -159,18 +160,18 @@
   
   .lista-localrodape{
     font-size: 18px;
-    color: white;
+    color: rgb(95, 243, 9);
   }
   
   .estilo-icone{
     font-size: 32px;
     margin-right: 10px;
-   }
+ }
 
    .botao{
     font-size: 16px;
     font-weight: 700;
     display: flex;
-    flex-direction: row-reverse;
-    color: #0bdf9f;
-}
+    justify-content: center;
+    color: rgb(95, 243, 9);
+    }
