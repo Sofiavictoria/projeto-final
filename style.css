@@ -175,3 +175,111 @@
     justify-content: center;
     color: rgb(95, 243, 9);
     }
+
+  
+    @media screen and (max-widht:600px){
+      .lista-menu{
+        width: 80%;
+      }
+    }
+
+    @media screen and (max-width:600px) {
+      .avatar{
+        width: 125px;
+        height: 125px;
+      }
+
+      .nome-completo{
+        font-size: 22px;
+      }
+
+      .profissao{
+        font-size: 20px;
+      }
+
+      .texto-sobre{
+        font-size: 18px;
+        line-height: 24px;
+      }
+
+      .container{
+        padding: 0;
+        max-width: none;
+        width: 100%;
+      }
+
+      .article-lista{
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .topico-principal{
+        font-size: 22px;
+      }
+
+      .lista-titulo{
+        font-size: 20px;
+      }
+
+      .lista-local{
+        font-size: 18px;
+      }
+
+      .lista-descricao{
+        font-size: 16px;
+        line-height: 16px;
+      }
+
+      .lista-local{
+        font-size: 18px;
+      }
+
+      .lista-rodape{
+        font-size: 16px;
+        margin: 0;
+      }
+
+      .lista-rodape li{
+        font-size: 16px;
+        margin: 0;
+        display: block;
+      }
+
+      .principal{
+        height: 130vh;
+        display: flex;
+        text-align: center;
+      }
+
+      .meio{
+        height: 120vh;
+        display: flex;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width:600px) {
+      .header-menu{
+        flex-direction: column;
+        align-items:center;
+        height: auto;
+      }
+
+      .lista-menu{
+        margin-top: 16px;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .lista-menu li{
+        margin: 8px;
+      }
+    }
+
+    @media screen and (max-width:600px) {
+      .lista-menu{
+        width: 80%;
+      }
+
+    }
+
